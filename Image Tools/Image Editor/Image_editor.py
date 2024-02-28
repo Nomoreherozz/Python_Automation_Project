@@ -4,14 +4,6 @@ import os
 path = "./Input Image"
 path_out = "./Output Image"
 
-# for filename in os.listdir(path):
-#     img = Image.open(f"{path}/{filename}")
-#     if img.mode=='RGBA':
-#         img = img.convert('RGB')
-#         img.save(f'{path}/{filename}_converted.jpg')
-#     else:
-#         pass
-
 for filename in os.listdir(path):
     img = Image.open(f"{path}/{filename}")
 
